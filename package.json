@@ -1,8 +1,14 @@
 {
   "scripts": {
-    "start": "node ."
+    "start": "nodemon -e ts,graphql -x ts-node index.ts"
   },
   "dependencies": {
-    "graphql-yoga": "1.2.0"
+    "graphql-tag": "^2.10.1",
+    "graphql-yoga": "1.17.4",
+    "iterall": "^1.2.2",
+    "nodemon": "^1.19.1",
+    "rxjs": "^6.5.2",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.5.1"
   }
 }
